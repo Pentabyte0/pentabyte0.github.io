@@ -27,7 +27,6 @@ const CACHE = `ejemploPWA-${VERSION}`
 const ARCHIVOS = [
   "favicon.ico",
   "index.html",
-  "jsconfig.json",
   "site.webmanifest",
   "css/estilos.css",
   "img/icono2048.png",
@@ -41,9 +40,9 @@ const ARCHIVOS = [
   "img/maskable_icon_x96.png",
   "img/screenshot_horizontal.png",
   "img/screenshot_vertical.png",
-  "js/lib/registraServiceWorker.js",
   "/"
 ]
+
 
 // Verifica si el código corre dentro de un service worker.
 if (self instanceof ServiceWorkerGlobalScope) {
@@ -98,3 +97,5 @@ async function buscaLaRespuestaEnElCache(evt) {
     return response
   }
 }
+
+// cambio nomas para probar a ver si se actualiza esto ajjaj
