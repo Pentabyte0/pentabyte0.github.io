@@ -10,14 +10,14 @@
     "screenshots": [
         {
             "src": "./img/screenshot_horizontal.png",
-            "sizes": "1507x777",
+            "sizes": "1080x512",
             "type": "image/png",
             "form_factor": "wide",
             "label": "PWA Básica"
         },
         {
             "src": "./img/screenshot_vertical.png",
-            "sizes": "591x980",
+            "sizes": "354x789",
             "type": "image/png",
             "form_factor": "narrow",
             "label": "PWA Básica (2)"
